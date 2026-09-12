@@ -1,0 +1,49 @@
+Web API additional record
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Sat, 12 Sep 2026 07:00:58 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+[
+  {
+    "id": 1,
+    "name": "Classic Italian",
+    "isGlutenFree": false
+  },
+  {
+    "id": 2,
+    "name": "Veggie",
+    "isGlutenFree": true
+  },
+  {
+    "id": 4,
+    "name": "Hot Pepper Pizza",
+    "isGlutenFree": false
+  }
+]
+
+
+Sales Summary Function
+
+void generateSalesSummary(IEnumerable<string> salesFiles, double salesTotal)
+{
+    string salesSummary = "Sales Sumary\n\tTotal Sales: $" + salesTotal + "\n\n\tDetails:";
+
+    foreach (var file in salesFiles)
+    {
+        if (file.EndsWith("salestotals.json"))
+        {
+            string salesJson = File.ReadAllText(file);
+            SalesTotalsData? data = JsonConvert.DeserializeObject<SalesTotalsData?>(salesJson);
+            var salesAmount = data?.OverallTotal ?? 0;
+
+            salesSummary += "\n\t\t" + file + ": $" + salesAmount;
+        }
+    }
+
+    File.AppendAllText(Path.Combine(salesTotalDir, "salesSummary.txt"), $"{salesSummary}{Environment.NewLine}");
+}
+
