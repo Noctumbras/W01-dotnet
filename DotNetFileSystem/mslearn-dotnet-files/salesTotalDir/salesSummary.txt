@@ -1,0 +1,34 @@
+System.Collections.Generic.List`1[System.String]
+Sales Sumary
+	Total Sales: 2012.2000000000003
+
+	Details:
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\sales.json: 88.88
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\201\sales.json: 501.22
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\201\salestotals.json: 0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\202\sales.json: 1234.22
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\202\salestotals.json: 0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\203\sales.json: 99
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\203\salestotals.json: 0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\204\sales.json: 88.88
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\204\salestotals.json: 0
+Sales Sumary
+	Total Sales: $2012.2000000000003
+
+	Details:
+Sales Sumary
+	Total Sales: $2012.2000000000003
+
+	Details:
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\201\salestotals.json: $0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\202\salestotals.json: $0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\203\salestotals.json: $0
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\204\salestotals.json: $0
+Sales Sumary
+	Total Sales: $2012.2000000000003
+
+	Details:
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\201\salestotals.json: $1501.22
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\202\salestotals.json: $101.22
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\203\salestotals.json: $154401.22
+		C:\Users\range\Documents\School stuff\CSE325\W01 dotnet\DotNetFileSystem\mslearn-dotnet-files\stores\204\salestotals.json: $13501.22
